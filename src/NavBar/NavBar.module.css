@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Danfo&family=Goblin+One&family=Holtwood+One+SC&family=Itim&family=Kolker+Brush&family=Koulen&family=Lakki+Reddy&family=Luckiest+Guy&family=Madimi+One&family=Monoton&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Sedan+SC&family=Sedgwick+Ave+Display&family=Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Danfo&family=Goblin+One&family=Holtwood+One+SC&family=Itim&family=Karantina:wght@300;400;700&family=Kolker+Brush&family=Koulen&family=Lakki+Reddy&family=Luckiest+Guy&family=Madimi+One&family=Monoton&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Sedan+SC&family=Sedgwick+Ave+Display&family=Seymour+One&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.TidyMind{
+    font-family: "Lakki Reddy", serif;
+    font-size: 1.9em;
+   margin-top: 15px;
+}
+.Tidy{ 
+    color:#8FBC8B
+
+}
+.Mind{
+    color: #2C7534;
+}
+.ContactsButton{
+    font-family: "Karantina", system-ui;
+    font-size: 1.9em; 
+    font-weight: bold;
+    background: #8FBC8B;
+    border: none;
+    padding: 3%;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 50px;
+color: white;
+margin-top: 12px;
+
+
+}
+.NavBarContainer{
+    list-style: none;    
+justify-content: space-around;
+    display: flex;
+ padding: 1%;
+/* border: solid black; */
+max-width: 100%;
+
+}
+@media (min-width:500px) {
+  .ContactsButton{
+    font-size: 2.5em;
+  }
+.TidyMind{
+    font-size: 2.5rem;
+}
+   }
+   @media (min-width:1000px) {
+     .ContactsButton{
+       font-size: 4rem;
+      }
+      .TidyMind{
+        font-size: 3.5rem;
+
+    }
+   }
+   
+     
+   
